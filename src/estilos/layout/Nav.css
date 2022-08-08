@@ -1,0 +1,42 @@
+@font-face
+{
+    src: url('../../../public/fuentes/Bangers-Regular.ttf');
+    font-family:"bangers";
+}
+
+nav
+{
+    width: 34%;
+}
+
+nav ul
+{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li
+{
+    text-shadow: 2px 2px 2px black;
+}
+
+nav ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-family: "bangers";
+    font-size: 22px;
+    transition: all 300ms linear;
+}
+
+nav ul li a:hover
+{
+    transform: translateY(-10%);
+}
+
+.active
+{
+   color: #FE0000;
+}

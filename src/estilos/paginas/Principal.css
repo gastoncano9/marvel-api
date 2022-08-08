@@ -1,0 +1,101 @@
+@font-face
+{
+    src: url('../../../public/fuentes/Bangers-Regular.ttf');
+    font-family:"bangers";
+}
+
+#principal
+{
+    width: 100%;
+    padding: 25px;
+    min-height: 700px;
+    text-shadow: 2px 2px 2px black;
+    background: black;
+    color: white;
+    font-family:"bangers";
+    background-image: url('../../../public/imagenes/840_560.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#principal .container-section
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#principal .historia
+{
+    margin-top: 25px;
+    padding: 15px;
+    width: 60%;
+}
+
+#principal .historia .titulo-historia
+{
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    height: 40px;
+    text-align: center;
+}
+
+#principal .historia p
+{
+    margin-top:15px;
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 15px;
+}
+
+#principal #barra
+{
+    width: 35%;
+    padding: 20px;
+    background:linear-gradient(120deg, rgba(70, 69, 69, 0.322),black, rgba(70, 69, 69, 0.322));
+    border-radius: 18px;
+    height: auto;
+}
+
+#principal #barra h2
+{
+    border-bottom: 1.5px solid white;
+    width: 30%;
+}
+
+#principal #barra .container-personaje
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+#principal #barra .container-personaje .nombre-personaje
+{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+#principal #barra .container-personaje .img-personaje
+{
+    width: 100%;
+    padding: 0px 10px;
+    margin-top: 15px;
+}
+
+#principal #barra .container-personaje .img-personaje img
+{
+    width: 100%;
+}
+
+#principal #barra .container-personaje .historia-personaje
+{
+    margin-top: 15px;
+    text-align:center;
+}
